@@ -1,0 +1,67 @@
+#kalkulatori{
+    border:2px solid gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px whitesmoke;
+    width: 280px;
+   position: absolute;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    margin: 60px auto;  */
+
+
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+#b{
+  /* height:  100vh;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center; */
+
+}
+
+#display{
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    text-align: right;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+ 
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    font-size: 20px; 
+    color: darkcyan;
+}
+.butonat{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.orange{
+    background-color: orange;
+}
+button:hover{
+    border: 3px solid lightgray; 
+
+}
+#barazim{
+    background-color: lightgreen;
+}
+
